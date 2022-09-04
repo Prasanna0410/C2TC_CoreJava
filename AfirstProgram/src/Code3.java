@@ -1,14 +1,16 @@
 
-public class Code3 {
+ class Code3 {
 
 	public static void main(String[] args) {
 		int numA=5;
 		int numB=10;
 		int numC=0;
 		
-		int numD= --numC + numB--; 
+		 numC= --numC + numB--;
+		int mult = numC*numA;
 		
-		System.out.println(numD);
+		
+		System.out.println(numC);
+		System.out.println(mult);
 	}
-
 }
